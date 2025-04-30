@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="日本語化検証_Git"
+      id="56fde3e8-3c02-4024-9a40-6af946619dc3"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="日本語化検証_Git"
+      id="56fde3e8-3c02-4024-9a40-6af946619dc3"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

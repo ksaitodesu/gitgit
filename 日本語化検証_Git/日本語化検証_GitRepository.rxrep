@@ -1,0 +1,86 @@
+﻿<repository
+id="3cfddc01-7715-4290-951f-a7ca13d9a017"
+name="日本語化検証_GitRepository">
+	<codegen
+	classname="日本語化検証_GitRepository"
+	namespace="日本語化検証_Git">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="23973f57-a634-4882-aec3-e15cd190fa0e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="5a2a43df-3949-4f64-93aa-685741d0e68f"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="f8691956-c599-4b67-8fcf-bdae0d14465b"
+			isrooted="True"
+			name="RxTabIntroduction"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="3179b4b7-22d6-4290-8adb-03f92ddfebae"
+				name="EnterYourName"
+				refimgid="c0a6b0dc-79c8-4695-a15a-ada5aa384bee"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']/text[@accessiblename='Enter your name']"
+				robustPath="/form[@controlname='RxMainFrame']//text[@accessiblename='Enter your name' and @accessiblerole='Text']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="c751a464-4477-4552-a8a4-caf9beb1f574"
+				name="BtnSubmitUserName"
+				refimgid="6b8ceb7d-2b83-451a-9807-6878910b8e9a"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				robustPath="/form[@controlname='RxMainFrame']//button[@controlname='btnSubmitUserName']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+				</item>
+				<item
+				addcaps="link,accessible"
+				capname="link"
+				id="b6eea9f9-96d3-40ff-ab5d-8e1420a0232a"
+				name="Reset"
+				refimgid="d1f3d18f-d0ce-4fac-9943-768373a4753e"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/link/text/link[@accessiblename='Reset']"
+				robustPath="/form[@controlname='RxMainFrame']//link[@accessiblename='Reset']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']
+				</item>
+				<basepath>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
