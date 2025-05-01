@@ -99,6 +99,9 @@ namespace 日本語化検証_Git
             repo.RxMainFrame.RxTabIntroduction.Reset.Click("13;8");
             Delay.Milliseconds(0);
             
+            // Header text
+            Report.Log(ReportLevel.Info, "Section", "Header text", new RecordItemIndex(5));
+            
         }
 
 #region Image Feature Data

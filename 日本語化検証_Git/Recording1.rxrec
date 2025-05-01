@@ -1396,6 +1396,15 @@ P7ooAqvKs11EUyQucnGKuUgRR0Ap1ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
 FAH/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Header text
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
 	</recorditems>
 	<repository
 	id="3cfddc01-7715-4290-951f-a7ca13d9a017"
