@@ -25,6 +25,23 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\RanorexFirstStep\アプリケーション\RxDemoApp.exe
+			</filename>
+			<workingdir>
+				C:\RanorexFirstStep\アプリケーション
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -85,7 +102,6 @@ mode="Global">
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
 				</path>
 				<robustPath>
-					/form[@controlname='RxMainFrame']//text[@accessiblename='Enter your name' and @accessiblerole='Text']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -263,7 +279,6 @@ RRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
 				</path>
 				<robustPath>
-					/form[@controlname='RxMainFrame']//text[@accessiblename='Enter your name' and @accessiblerole='Text']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -1191,7 +1206,6 @@ ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
 				</path>
 				<robustPath>
-					/form[@controlname='RxMainFrame']//button[@controlname='btnSubmitUserName']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -1345,7 +1359,6 @@ UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']
 				</path>
 				<robustPath>
-					/form[@controlname='RxMainFrame']//link[@accessiblename='Reset']
 				</robustPath>
 			</info>
 			<helperscreenshot

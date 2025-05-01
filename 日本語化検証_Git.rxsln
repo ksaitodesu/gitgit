@@ -4,12 +4,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 12.0.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "日本語化検証_Git", "日本語化検証_Git\日本語化検証_Git.csproj", "{544986B1-2BA9-43A5-A336-04266D6A734A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E8B3D47-3841-4293-AB18-1D075C572036}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "日本語化検証_Git", "日本語化検証_Git\日本語化検証_Git.csproj", "{544986B1-2BA9-43A5-A336-04266D6A734A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
