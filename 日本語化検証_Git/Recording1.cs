@@ -79,19 +79,23 @@ namespace 日本語化検証_Git
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.EnterYourName' at 42;13.", repo.RxMainFrame.RxTabIntroduction.EnterYourNameInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\RanorexFirstStep\\アプリケーション\\RxDemoApp.exe' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("C:\\RanorexFirstStep\\アプリケーション\\RxDemoApp.exe", "", "C:\\RanorexFirstStep\\アプリケーション", false);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.EnterYourName' at 42;13.", repo.RxMainFrame.RxTabIntroduction.EnterYourNameInfo, new RecordItemIndex(1));
             repo.RxMainFrame.RxTabIntroduction.EnterYourName.Click("42;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Taro' with focus on 'RxMainFrame.RxTabIntroduction.EnterYourName'.", repo.RxMainFrame.RxTabIntroduction.EnterYourNameInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Taro' with focus on 'RxMainFrame.RxTabIntroduction.EnterYourName'.", repo.RxMainFrame.RxTabIntroduction.EnterYourNameInfo, new RecordItemIndex(2));
             repo.RxMainFrame.RxTabIntroduction.EnterYourName.PressKeys("Taro");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.BtnSubmitUserName' at 26;14.", repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserNameInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.BtnSubmitUserName' at 26;14.", repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserNameInfo, new RecordItemIndex(3));
             repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserName.Click("26;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.Reset' at 13;8.", repo.RxMainFrame.RxTabIntroduction.ResetInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.Reset' at 13;8.", repo.RxMainFrame.RxTabIntroduction.ResetInfo, new RecordItemIndex(4));
             repo.RxMainFrame.RxTabIntroduction.Reset.Click("13;8");
             Delay.Milliseconds(0);
             
