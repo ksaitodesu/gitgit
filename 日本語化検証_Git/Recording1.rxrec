@@ -1396,6 +1396,18 @@ P7ooAqvKs11EUyQucnGKuUgRR0Ap1ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
 FAH/2Q==
 			</helperscreenshot>
 		</mouseitem>
+<<<<<<< HEAD
+=======
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Header text
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+>>>>>>> 78d58606bbc4f4fa9d82a25f7f01060191dd80c5
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -1404,7 +1416,11 @@ FAH/2Q==
 		loc="Center"
 		movetime="300ms"
 		optional="False"
+<<<<<<< HEAD
 		searchpropertyid="07c61e3f-167e-480f-b97f-9012b05ebee4"
+=======
+		searchpropertyid="6af410a1-be44-43e7-899b-b94097902140"
+>>>>>>> 78d58606bbc4f4fa9d82a25f7f01060191dd80c5
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -1413,10 +1429,17 @@ FAH/2Q==
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="c751a464-4477-4552-a8a4-caf9beb1f574"
 			sourcename="RepositoryEditor">
 				<path>
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+=======
+			id="b6eea9f9-96d3-40ff-ab5d-8e1420a0232a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']
+>>>>>>> 78d58606bbc4f4fa9d82a25f7f01060191dd80c5
 				</path>
 				<robustPath>
 				</robustPath>
