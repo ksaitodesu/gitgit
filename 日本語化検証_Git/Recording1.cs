@@ -99,6 +99,10 @@ namespace 日本語化検証_Git
             repo.RxMainFrame.RxTabIntroduction.Reset.Click("13;8");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.BtnSubmitUserName' at Center.", repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserNameInfo, new RecordItemIndex(5));
+            repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserName.Click();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
