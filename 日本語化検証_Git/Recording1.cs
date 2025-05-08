@@ -102,6 +102,10 @@ namespace 日本語化検証_Git
             // Header text
             Report.Log(ReportLevel.Info, "Section", "Header text", new RecordItemIndex(5));
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.Reset' at Center.", repo.RxMainFrame.RxTabIntroduction.ResetInfo, new RecordItemIndex(6));
+            repo.RxMainFrame.RxTabIntroduction.Reset.Click();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

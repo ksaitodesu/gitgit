@@ -1405,6 +1405,32 @@ FAH/2Q==
 			<bindings>
 			</bindings>
 		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6af410a1-be44-43e7-899b-b94097902140"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b6eea9f9-96d3-40ff-ab5d-8e1420a0232a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="3cfddc01-7715-4290-951f-a7ca13d9a017"
